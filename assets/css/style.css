@@ -1,75 +1,75 @@
+/* nav start */
 .nav {
-    margin: 3rem 0 9rem 0;
-  }
-  
-  .nav .nav_menu {
-    display: flex;
-    align-items: center;
-  }
-  .nav .nav_menu .nav_menu-bar li {
-    margin: 0 0 0 3rem;
-  }
-  .nav .nav_menu .nav_menu-bar li a {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 30px;
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #07043B;
-  }
-  /* nav end */
-
-  /* section start */
- .Hero .Hero_content h1{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 60px;
-    /* or 150% */
-    color: #07043B;
- }
- .Text1{
-    margin-top: 4rem;
- }
- .Hero .Hero_content p{
-    font-family: 'Open Sans';
-font-style: normal;
-font-weight: 400;
-font-size: 17px;
-line-height: 24px;
-/* or 141% */
-
-letter-spacing: 0.53125px;
-padding-top: 1rem;
-
-color: #07043B;
- }
-
-.inp{
-    border: 0.625px solid #07043B;
-    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
-    border-radius: 3.125px;
-    height: 45px;
-    width: 320px;
-    color: white;
-    margin-top: 25px;
-    
-}
-.btn{
-    background: #2f65f8;
-    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
-    border-radius: 3.125px;
-    height: 45px;
-    width: 200px;
-    color: white;
-    margin-top: 25px;
-    border: transparent;
-    margin-left: 12px;
-    cursor: pointer;
+  margin: 3rem 0 9rem 0;
 }
 
+.nav .nav_menu {
+  display: flex;
+  align-items: center;
+}
+.nav .nav_menu .nav_menu-bar li {
+  margin: 0 0 0 3rem;
+}
+.nav .nav_menu .nav_menu-bar li a {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #07043b;
+}
+/* nav end */
+
+/* section start */
+.Hero .Hero_content h1 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+  /* or 150% */
+  color: #07043b;
+}
+.Text1 {
+  margin-top: 4rem;
+}
+.Hero .Hero_content p {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+  /* or 141% */
+
+  letter-spacing: 0.53125px;
+  padding-top: 1rem;
+
+  color: #07043b;
+}
+
+.inp {
+  border: 0.625px solid #07043b;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+  padding: 1rem 7rem 1rem 1rem;
+
+  margin-top: 25px;
+}
+.btn {
+  background: #2f65f8;
+  box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.15925);
+  border-radius: 3.125px;
+  height: 45px;
+  width: 200px;
+  color: white;
+  margin-top: 25px;
+  border: transparent;
+  margin-left: 12px;
+  cursor: pointer;
+}
+
+/* section end */
