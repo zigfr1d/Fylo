@@ -73,3 +73,66 @@
 }
 
 /* section end */
+
+/* productive start */
+
+.productive .productive-background {
+  background-image: url("../img/rectangle\ background.png");
+  background-repeat: no-repeat;
+  background-position: top;
+  margin-top: 108px;
+  min-height: 855.37px;
+}
+
+.productive-background .productive-image {
+  margin: 14rem 3rem 0 0;
+}
+
+.productive-background .productive-content h2 {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #07043b;
+}
+
+.productive-background .productive-content {
+  text-align: left;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.productive-background .productive-content p {
+  margin: 8px 0;
+}
+
+.productive-background .productive-content .productive-buttons a {
+  color: #3da08f;
+  text-decoration: none;
+  margin-top: 15px;
+}
+.productive-background .productive-content .productive-buttons i {
+  color: #3da08f;
+  font-size: 13px;
+}
+.productive-content .group3 {
+  background: #ffffff;
+  box-shadow: 0px 0px 10px 5px rgba(56, 56, 56, 0.0458843);
+  border-radius: 5px;
+  width: 350px;
+}
+
+.productive-content .group3 p {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  color: #07043b;
+}
+.productive-content .group3 i {
+  margin: 12px 0 12px 33px;
+}
