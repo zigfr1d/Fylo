@@ -271,21 +271,19 @@
   background-position: center;
   position: relative;
   min-height: 390px;
-  top: -3rem;
 }
 
 .footer-content {
-  flex-direction: column;
-  gap: 3rem;
   padding-top: 80px;
   display: flex;
+  flex-direction: column;
 }
 
-.footer-menu {
+.contact .phone {
   display: flex;
-  justify-content: start;
-  gap: 14rem;
+  flex-direction: column;
 }
+
 .footer-menu i {
   color: #ffffff;
 }
@@ -294,8 +292,9 @@
   color: white;
 }
 
-.footer-menu .contact .phone i {
-  transform: rotate(-45deg);
+.contact {
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer-menu .contact a {
@@ -304,6 +303,9 @@
   font-style: normal;
   line-height: 24px;
 }
+.footer-menu ul li{
+  margin-bottom: 1rem;
+}
 
 .footer-menu ul li a {
   font-family: "Raleway", sans-serif;
@@ -311,17 +313,15 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  /* identical to box height */
 
   color: #ffffff;
 }
 
 .footer-menu .social-networks {
-  display: flex;
-  flex-wrap: wrap;
   gap: 1rem;
+  display: flex;
 }
-.footer-menu .social-networks div a i {
+.footer-menu .social-networks a i {
   display: flex;
   justify-content: center;
   align-items: center;
