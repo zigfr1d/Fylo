@@ -81,7 +81,7 @@
   background-image: url("../img/rectangle\ background.png");
   background-repeat: no-repeat;
   background-position: top;
-  /* background-size: cover; */
+  background-size: cover;
   box-sizing: border-box;
   margin-top: 108px;
   padding: 12rem 0 0 0;
@@ -197,7 +197,10 @@
 
 /* footer start */
 .footer .cta {
-  background-image: url("../img/ctabackground.png");
+  /* background-image: url("../img/ctabackground.png"); */
+  background: #575988;
+
+  
   background-repeat: no-repeat;
 
   min-height: 369.71px;
@@ -266,10 +269,13 @@
 /* footer end */
 
 .sector-footer {
-  background-image: url("../img/footerbackground.png");
+  /* background-image: url("../img/footerbackground.png"); */
+  background: #07043b;
+  
   background-repeat: no-repeat;
   background-position: center;
-  position: relative;
+  
+  
   min-height: 390px;
 }
 
@@ -303,7 +309,7 @@
   font-style: normal;
   line-height: 24px;
 }
-.footer-menu ul li{
+.footer-menu ul li {
   margin-bottom: 1rem;
 }
 
