@@ -1,0 +1,68 @@
+@media only screen and (max-width: 600px) {
+    /* .nav .row  {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+
+      } */
+  .nav_logo a img {
+    width: 80px;
+    height: 24px;
+    float: left;
+  }
+  .nav .nav_menu .nav_menu-bar li a {
+    font-weight: 400px !important;
+    font-size: 12px !important;
+    line-height: 14px !important;
+    float: left;
+  }
+  .Hero .row{
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+
+  }
+  .Hero_image img {
+    width: 300px;
+    height: 225px;
+    float: left;
+  }
+  .Hero_content {
+    text-align: center;
+    float: left;
+  }
+
+  .Hero .Hero_content h1 {
+    font-weight: 700 !important;
+    font-size: 24px !important;
+    line-height: 36px !important;
+    text-align: center;
+  }
+
+  .Hero .Hero_content p {
+    margin: 3rem 0 0 0;
+    font-family: "Open Sans";
+
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+
+    text-align: center;
+  }
+  .Hero_content  {
+    display: flex !important ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+  }
+  .Hero .Hero_content  btn {
+    width: 440px !important;
+    float: left;
+  }
+  .Hero .Hero_content  inp {
+    margin-right: 0 !important;
+    float: left;
+  }
+}
